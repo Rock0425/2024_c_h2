@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int i;
+    float f;
+    char  c;
+    int x ,y;
+    int sum;
+    int r;
+    
+    i = 10+i;
+    f = 0.123456;
+    c = 'h';
+    x=10;
+    y=20;
+    sum=x+y;
+    r=i+f+c+x+y+sum;
+    
+    printf("i = %d\n",i);
+    printf("f = %d\n",f);
+    printf("c = %d\n",c);
+    printf("x = %d\n",x);
+    printf("y = %d\n",y);
+    printf("sum = %d\n",sum);
+    printf("r = %d\n",r);
+    return 0;
+} 
